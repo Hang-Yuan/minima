@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="project">
+<div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title | escape }}</h1>
   {%- endif -%}
@@ -11,19 +11,19 @@ layout: default
 
 
   {% if site.paginate %}
-    {% assign projects = paginator.projects %}
+    {% assign posts = paginator.projects %}
   {% else %}
-    {% assign projects = site.projects %}
+    {% assign posts = site.projects %}
   {% endif %}
 
 
-  {%- if projects.size > 0 -%}
+  {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in projects -%}
+      {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
