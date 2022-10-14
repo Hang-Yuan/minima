@@ -3,7 +3,7 @@ author:
   name: Harvey
   email: hangyua2@tepper.cmu.edu
 description: > # this means to ignore newlines until "show_excerpts:"
-Data Analytics and Life.
+  Data Analytics and Life.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
