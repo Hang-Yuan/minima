@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Build my first website"
+categories: blog_daily
 ---
 
 My CMU mini 1 is at a finale. I am taking two exams tomorrow.
