@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build my first website.md"
+title: "Build my first website"
 ---
 
 My CMU mini 1 is at a finale. I am taking two exams tomorrow.
